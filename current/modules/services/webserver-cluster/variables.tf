@@ -27,6 +27,9 @@ variable "max_size" {
   description = "The maximum number of EC2 Instances in the ASG"
 }
 
+variable "desired_capacity" {
+  description = "The desired number of EC2 Instances in the ASG"
+}
 
 
 variable "server_port" {

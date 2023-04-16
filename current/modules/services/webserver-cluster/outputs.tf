@@ -12,3 +12,8 @@ output "alb_zone" {
   value       = aws_lb.example.zone_id
   description = "2The domain name of the load balancer"
 }
+
+output "asg_name" {
+  value       = aws_autoscaling_group.example.name
+  description = "The name of the Auto Scaling Group"
+}

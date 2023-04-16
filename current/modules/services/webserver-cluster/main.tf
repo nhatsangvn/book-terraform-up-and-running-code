@@ -54,6 +54,7 @@ resource "aws_autoscaling_group" "example" {
 
   min_size = var.min_size
   max_size = var.max_size
+  desired_capacity = var.desired_capacity
 
   tag {
     key                 = "Name"
